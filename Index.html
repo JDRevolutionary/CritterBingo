@@ -3,7 +3,7 @@
 
 <h1>Critter Bingo</h1>
 <script>
-const animals = ['Pig', 'Chicken', 'Cattle', 'Sheep', 'Horse', 'Duck', 'Goat', 'Donkey'];
+const animals = ['Pig', 'Chicken', 'Cattle', 'Sheep', 'Horse', 'Duck', 'Goat', 'Donkey','Unicorn'];
 const getAnimalCategory = () => {
   let animalIndex = Math.random();
   let category;
@@ -23,6 +23,9 @@ category =5;
 category =6;
 } else if (animalIndex <0.125 && animalIndex>=0.0001) {
 category =7;
+} else {   
+category = 8;
+}
   return category;
 };
 
